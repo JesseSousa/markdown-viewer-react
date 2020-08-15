@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import MarkdownInput from "./MarkdownInput";
+import MarkdownOutput from "./MarkdownOutput";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      markdownInput: "",
+    };
+  }
+
+  handleChange = (evt) => {
+    this.setState({ [evt.target.name]: evt.target.value });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <header>
+          <h1>Markdown Previewer</h1>
+        </header>
+        <div className="markdown-container">
+          <MarkdownInput handleChange={this.handleChange} />
+          <MarkdownOutput source={this.state.markdownInput} />
+        </div>
+        <footer>
+          Made by{" "}
+          <a href="https://github.com/JesseSousa" target="noopener">
+            Jesse Sousa
+          </a>
+        </footer>
+      </div>
+    );
+  }
 }
 
 export default App;

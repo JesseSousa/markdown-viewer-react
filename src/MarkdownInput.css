@@ -1,0 +1,9 @@
+.MarkdownInput {
+  height: 100%;
+  width: 50%;
+  resize: none;
+  outline: none;
+  border-radius: 0;
+  border: 2px solid #00d2d3;
+  padding: 0.25rem;
+}

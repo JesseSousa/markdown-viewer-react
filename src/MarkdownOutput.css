@@ -1,0 +1,10 @@
+.MarkdownOutput {
+  width: 50%;
+  padding: 1.2rem;
+  background-color: #c8d6e5;
+  overflow-y: auto;
+
+  ul {
+    list-style: none;
+  }
+}
