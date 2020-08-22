@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/markdown-previewer-react/static/css/main.03dc1569.chunk.css",
+    "main.js": "/markdown-previewer-react/static/js/main.07f81cbd.chunk.js",
+    "main.js.map": "/markdown-previewer-react/static/js/main.07f81cbd.chunk.js.map",
+    "runtime-main.js": "/markdown-previewer-react/static/js/runtime-main.edfbe115.js",
+    "runtime-main.js.map": "/markdown-previewer-react/static/js/runtime-main.edfbe115.js.map",
+    "static/js/2.20e8129d.chunk.js": "/markdown-previewer-react/static/js/2.20e8129d.chunk.js",
+    "static/js/2.20e8129d.chunk.js.map": "/markdown-previewer-react/static/js/2.20e8129d.chunk.js.map",
+    "index.html": "/markdown-previewer-react/index.html",
+    "precache-manifest.cf86ce802ddb47adab4dfefad14f9bee.js": "/markdown-previewer-react/precache-manifest.cf86ce802ddb47adab4dfefad14f9bee.js",
+    "service-worker.js": "/markdown-previewer-react/service-worker.js",
+    "static/css/main.03dc1569.chunk.css.map": "/markdown-previewer-react/static/css/main.03dc1569.chunk.css.map",
+    "static/js/2.20e8129d.chunk.js.LICENSE.txt": "/markdown-previewer-react/static/js/2.20e8129d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edfbe115.js",
+    "static/js/2.20e8129d.chunk.js",
+    "static/css/main.03dc1569.chunk.css",
+    "static/js/main.07f81cbd.chunk.js"
+  ]
+}
