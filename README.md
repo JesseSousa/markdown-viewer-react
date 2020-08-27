@@ -1,8 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+This Project was made for this [blog post](https://dev.to/jessesousa/create-your-own-markdown-previewer-with-react-292d), which teaches how to create a markdown previewer using Reactjs.
 
 ### `yarn start`
 
